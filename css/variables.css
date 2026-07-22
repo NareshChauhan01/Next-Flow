@@ -1,17 +1,85 @@
-/* ==========================================
-   CSS Variables
-========================================== */
+/* ===== Google Font Family ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-/* Colors */
+/* ===== CSS Variables ====== */
+:root {
+   /* ===== Colors ===== */
 
-/* Typography */
+   /* Primary */
+   --primary-color: #7A3DDB;
+   --primary-hover: #8059C0;
+   --primary-light: #AB82EB;
 
-/* Spacing */
+   /* Background */
+   --background-color: #F8FAFC;
+   --surface-color: #FFFFFF;
 
-/* Border Radius */
+   /* Text */
+   --text-color: #18181B;
+   --text-secondary: #71717A;
 
-/* Box Shadows */
+   /* Border */
+   --border-color: #E4E4E7;
 
-/* Transitions */
+   /* Status */
+   --danger-color: #EF4343;
 
-/* Container */
+   /* ===== Typography ===== */
+
+   /* Font Family */
+   --heading-font: "Outfit", sans-serif;
+   --body-font: "Poppins", sans-serif;
+
+   /* Font Weight */
+   --font-light: 300;
+   --font-regular: 400;
+   --font-medium: 500;
+   --font-semibold: 600;
+   --font-bold: 700;
+   --font-extrabold: 800;
+
+   /* Font Size */
+   --fs-xs: 0.75rem;
+   --fs-sm: 0.875rem;
+   --fs-base: 1rem;
+   --fs-lg: 1.125rem;
+   --fs-xl: 1.25rem;
+   --fs-2xl: 1.5rem;
+   --fs-3xl: 2rem;
+   --fs-4xl: 2.5rem;
+   --fs-5xl: 3rem;
+
+   /* ===== Layout ===== */
+
+   --container-width: 1200px;
+
+   /* ===== Spacing ===== */
+
+   --section-padding: 100px;
+   --card-padding: 24px;
+
+   /* ===== Border Radius ===== */
+
+   --radius-sm: 8px;
+   --radius-md: 12px;
+   --radius-lg: 20px;
+   --radius-full: 999px;
+
+   /* ===== Box Shadow ===== */
+
+   --shadow-sm: 0 2px 8px rgba(24, 24, 27, 0.08);
+   --shadow-md: 0 8px 24px rgba(24, 24, 27, 0.12);
+   --shadow-lg: 0 16px 40px rgba(24, 24, 27, 0.16);
+
+   /* ===== Transition ===== */
+
+   --transition: all 0.3s ease;
+
+   /* ===== Z-Index ===== */
+
+   --z-dropdown: 100;
+   --z-sticky: 500;
+   --z-fixed: 1000;
+   --z-modal: 2000;
+}
