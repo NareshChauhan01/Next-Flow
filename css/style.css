@@ -1,3 +1,4 @@
+/* ============================== Global Styles ============================== */
 /* ===== CSS Reset ===== */
 *,
 *::before,
@@ -102,4 +103,64 @@ section {
    background-color: var(--primary-hover);
 }
 
-/* Utility Classes */
+
+/* ==========================================
+      Utility Classes
+========================================== */
+.border {
+   border: 1px solid red;
+}
+
+
+/* ==========================================
+   Header
+========================================== */
+.header {
+   padding: 0.75rem 0;
+   background-color: var(--surface-color);
+   border-bottom: 1px solid var(--border-color);
+}
+
+.header-content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header-content-right {
+   display: flex;
+   gap: 1rem;
+   align-items: center;
+}
+
+.nav-group {
+   display: flex;
+   align-items: center;
+   gap: 2rem;
+}
+
+.navbar ul {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+
+.nav-buttons {
+   display: flex;
+   gap: 1rem;
+   align-items: center;
+}
+
+.navbar a {
+   color: var(--text-color);
+   transition: var(--transition);
+   font-weight: var(--font-regular);
+}
+
+.navbar a:hover {
+   color: var(--primary-color);
+}
+
+.theme-toggle img {
+   display: block;
+}
