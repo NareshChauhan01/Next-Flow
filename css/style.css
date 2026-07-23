@@ -119,6 +119,7 @@ section {
    padding: 0.5rem 0;
    background-color: var(--surface-color);
    border-bottom: 1px solid var(--border-color);
+   user-select: none;
 }
 
 .header-content {
@@ -200,4 +201,57 @@ section {
 
 .hamburger span {
    transition: var(--transition);
+}
+
+/* ==========================================
+   Hero Section
+========================================== */
+.hero {
+   background: linear-gradient(135deg, #F8FAFC 0%, #F3ECFF 100%);
+}
+
+.hero-content {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 4rem;
+}
+
+.hero-left,
+.hero-right {
+   flex: 1;
+}
+
+.hero-left {
+   display: flex;
+   flex-direction: column;
+   row-gap: var(--space-4);
+}
+
+.hero h1 {
+   font-weight: 400;
+   margin: 0;
+   line-height: 1.1;
+}
+
+.hero-description {
+   text-align: justify;
+}
+
+.hero-buttons {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1rem;
+}
+
+.hero-right {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.hero-right img {
+   max-width: 500px;
+   width: 100%;
+   height: auto;
 }
