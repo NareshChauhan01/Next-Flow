@@ -2,9 +2,36 @@
    Responsive Design
 ========================================== */
 
+/* Large Devices */
+@media (max-width: 1200px) {
+
+   /* ==========================================
+      Hero Section
+   ========================================== */
+   .hero-left {
+      padding: 0 1rem;
+   }
+
+   .hero-right img {
+      max-width: 400px;
+   }
+}
+
+/* Laptop */
+@media (max-width: 992px) {}
+
+/* Medium Devices */
 @media (max-width: 887px) {
+
+   /* ==========================================
+      Header
+   ========================================== */
    .header {
       position: relative;
+   }
+
+   .header-content {
+      padding: 0 1.5rem;
    }
 
    .nav-group {
@@ -49,14 +76,74 @@
       display: flex;
    }
 
+   /* ==========================================
+         Hero Section
+   ========================================== */
+
+   .hero-content {
+      flex-direction: column;
+   }
+
+   .hero-left {
+      align-items: center;
+   }
+
+   .hero-description {
+      text-align: center;
+   }
+
+   .hero-right img {
+      max-width: 500px;
+   }
 }
 
-/* Large Devices */
+/* Tablet */
+@media (max-width: 768px) {}
 
-/* Medium Devices */
-
-/* Tablets */
+/* Tablet */
+@media (max-width: 676px) {}
 
 /* Mobile */
+@media (max-width: 576px) {
 
-/* Small Mobile */
+   /* ==========================================
+               Hero Section
+   ========================================== */
+
+   .hero {
+      padding: 70px 0 50px 0;
+   }
+
+   .hero-left {
+      padding: 0;
+   }
+
+   .hero h1 {
+      text-align: center;
+      font-size: var(--fs-2xl);
+   }
+
+   .hero-right img {
+      max-width: 400px;
+   }
+}
+
+/* Mobile */
+@media (max-width: 400px) {
+
+   /* ==========================================
+                  Hero Section
+   ========================================== */
+   .hero-content {
+      gap: 2rem;
+   }
+
+   .hero h1 {
+      text-align: center;
+   }
+
+   .hero-right img {
+      max-width: 480px;
+   }
+
+}

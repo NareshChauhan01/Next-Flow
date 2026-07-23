@@ -128,6 +128,10 @@ section {
    align-items: center;
 }
 
+.logo {
+   font-size: 1.2rem;
+}
+
 .header-content-right {
    display: flex;
    gap: 1rem;
