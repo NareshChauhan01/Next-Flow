@@ -3,10 +3,13 @@
    Main JavaScript File
 ========================================== */
 
-// DOM Elements
+/* ==========================================
+   Hamburger Menu
+========================================== */
+const hamburgerMenu = document.querySelector(".hamburger");
+const header = document.querySelector(".header")
 
-// Global Functions
-
-// Event Listeners
-
-// Initialization
+hamburgerMenu.addEventListener("click", () => {
+   hamburgerMenu.classList.toggle("active");
+   header.classList.toggle("active")
+});
